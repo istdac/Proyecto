@@ -8,7 +8,7 @@ $(document).ready(function () {
         console.log(ID);
         $.ajax({
             type: 'get',
-            url: 'http://localhost:3100/tweets',
+            url: 'https://mighty-cliffs-43835.herokuapp.com/tweets',
             data: {
                 id : ID
             },
